@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul.parent{
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    background-color: grey;
+    padding: 5px;
+li{
+    position: relative;
+    a{
+    padding: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    &:hover{
+        color: red;
+    }
+    }
+    ul{
+        position: absolute;
+        display: none;
+        background-color: grey;
+        list-style: none;
+        width: 150px;
+        top: 24px;
+    }
+    &:hover{
+        ul{
+            display: block;
+        }
+    }
+  }
+}
