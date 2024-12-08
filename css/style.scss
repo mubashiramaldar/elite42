@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.parent{
+    position: relative;
+    width: 400px;
+    height: 500px;
+    background-color: grey;
+    top: 100px;
+    left: 450px;
+    .container{
+        position: absolute;
+        width: 400px;
+        height: 500px;
+        h1{
+            position: absolute;
+            left: 50px;
+            top: 20px;
+        }
+        h2{
+            position: absolute;
+            left: 50px;
+            font-size: 15px;
+            top: 70px;
+        }
+        h3{
+            left: 50px;
+            position: absolute;
+            color: blue;
+            top: 260px;
+        }
+        .text1{
+            input{
+            top: 120px;
+            position: absolute;
+            left: 50px;
+            width: 300px;
+            height: 50px;
+            padding-left: 10px;
+            font-size: 20px;
+        }
+    }
+        .text2{
+            input{
+            top: 200px;
+            position: absolute;
+            left: 50px;
+            width: 300px;
+            height: 50px;
+            padding-left: 10px;
+            font-size: 20px;
+        }
+    }
+}
+.first{
+    button{
+    position: absolute;
+    border-radius: 50px;
+    width: 300px;
+    height: 50px;
+    left: 50px;
+    top: 300px;
+    font-size: 20px;
+    background-color: blue;
+    color: #FFF;
+       }
+    }
+.second{
+    button{
+    position: absolute;
+    border-radius: 50px;
+    width: 300px;
+    height: 50px;
+    left: 50px;
+    top: 400px;
+    font-size: 20px;
+        }
+    }
+}
