@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.collection {
+  padding: 100px;
+}
+.collection h1 {
+  color: orange;
+  padding-bottom: 20px;
+}
+.collection p {
+  max-width: 400px;
+  margin: 0;
+}
+.collection .box {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1px;
+}
+.collection .box button {
+  padding: 10px 15px;
+  cursor: pointer;
+  border-color: orange;
+}
+.collection .parent {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2px;
+  margin: 20px 0;
+}
+.collection .parent .child {
+  background-color: #FFF;
+  padding: 15px;
+  text-align: center;
+  border: 1px #ddd;
+}
+.collection .parent .child img {
+  max-width: 300px;
+  height: 300px;
+  margin-bottom: 10px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.collection .parent .child h2 {
+  margin-bottom: 5px;
+  color: black;
+}
+.collection .parent .child p {
+  color: orange;
+  font-weight: bold;
+}
+.collection .show {
+  margin: auto;
+  padding: 10px;
+  border-color: orange;
+  background-color: #FFF;
+  color: black;
+  cursor: pointer;
+}
+
+.story {
+  background-color: #ddd;
+  padding: 30px 20px;
+}
+.story .story-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.story .story-container .story-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+.story .story-container .story-text {
+  max-width: 500px;
+}
+.story .story-container .story-text h3 {
+  padding-bottom: 20px;
+}
+.story .story-container .story-text .last {
+  color: orange;
+  padding: 3px;
+}
+.story .story-container .story-text p {
+  margin: 15px 0;
+}
+.story .story-container .story-text button {
+  padding: 10px 20px;
+  color: black;
+  border-color: orange;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
