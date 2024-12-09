@@ -17,15 +17,13 @@
   height: 500px;
 }
 .parent .container h1 {
-  position: absolute;
-  left: 50px;
-  top: 20px;
+  margin-left: 50px;
+  margin-top: 20px;
 }
 .parent .container h2 {
-  position: absolute;
-  left: 50px;
+  margin-left: 50px;
   font-size: 15px;
-  top: 70px;
+  margin-top: 10px;
 }
 .parent .container h3 {
   left: 50px;
